@@ -1,0 +1,56 @@
+@import './variables';
+@import './header';
+@import './footer';
+@import './home';
+@import './hero';
+@import './latest';
+@import './plant-activity';
+
+body{
+    background-color: $gray;
+}
+
+.app-container{
+    font-family: $rubik;
+    width: 90%;
+    transform: translateX( 5% );
+
+    ul{
+        li{
+            display: inline-flex;
+            list-style: none;
+        }
+    }
+
+
+    button{
+        padding: 15px;
+        background-color: $white;
+        font-family: $rubik;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor:pointer;
+        letter-spacing: 2px;
+
+        @include responsive(tablet){
+            margin-right: 10px;
+        }
+    }
+
+    input{
+        display: block;
+        margin: 10px auto;
+        padding: 15px;
+        width: 62%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid $dark-gray;
+        font-family: $rubik;
+    }
+
+    .more-btn{
+        background-color: transparent;
+        color: $white;
+    }
+
+}
