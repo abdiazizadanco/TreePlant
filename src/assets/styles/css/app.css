@@ -99,7 +99,7 @@
     box-shadow: 2px 1px 3px rgb(112, 180, 138);
   }
   .hero .mobile-content p {
-    color: rgb(51, 44, 44);
+    color: rgb(93, 126, 105);
   }
   .hero img {
     width: 100vw;
@@ -163,6 +163,11 @@
 .planting {
   width: 100%;
   height: 100%;
+  margin-top: 30px;
+  color: rgb(93, 126, 105);
+}
+.planting h2 {
+  color: rgb(112, 180, 138);
 }
 @media screen and (min-width: 768px) {
   .planting {
@@ -185,7 +190,7 @@
      object-fit: cover;
   padding: 5px;
   margin-top: -5px;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 .planting ul li:nth-of-type(3) {
   opacity: 0.8;
@@ -285,6 +290,39 @@
   background: rgb(112, 180, 138);
   opacity: 0.7;
   border: 1px solid rgb(112, 180, 138);
+}
+.planting .step-3.active {
+  display: block;
+}
+.planting .step-3 {
+  margin-top: 10%;
+  display: none;
+  position: absolute;
+  z-index: 3;
+  background: rgb(238, 230, 230);
+  padding-block: 30px;
+}
+.planting .step-3 img {
+  width: 40%;
+}
+.planting .step-3 select {
+  padding: 10px;
+  outline: none;
+  font-family: rubik;
+  border: 1px solid whitesmoke;
+  margin-right: 50px;
+  border-radius: 5px;
+  color: rgb(93, 126, 105);
+}
+.planting .step-3 .btn-icon {
+  color: whitesmoke;
+  background: rgb(112, 180, 138);
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: -20px;
+  opacity: 0.6;
+  position: absolute;
 }
 
 body {

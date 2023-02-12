@@ -5,6 +5,7 @@ import Latest from "./Latest";
 // End of import statements
 
 const Home = () => {
+
     return ( 
         <div className="home">
             <Header />

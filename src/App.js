@@ -4,14 +4,14 @@ import { BrowserRouter } from "react-router-dom"
 import { Route, Routes } from "react-router"
 import PlantActivity from './components/plantTree/PlantActivity';
 
+const App =()=> {
 
-function App() {
   return (
     <div className="app-container">
       <BrowserRouter>
         <Routes>
-          <Route path = '/' element={<Home />} />
-          <Route path='/plant' element={<PlantActivity />} />
+            <Route path = '/' element={<Home />} />
+            <Route path='/plant' element={<PlantActivity />} />
         </Routes>
       </BrowserRouter>
     </div>

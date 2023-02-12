@@ -8,7 +8,7 @@ const Hero = () => {
     return ( 
         <div className="hero">
             <div className="hero-text">
-                <h2>Plant a tree <span style={{color:'rgb(112, 180, 138)'}}>&</span> save our planet</h2>
+                <h2>Plant a tree <span style={{color:'rgb(93, 126, 105)'}}>&</span> save our planet</h2>
                 <p className="desktop-content">We aim to bring together people who are not indifferent to the fate of our planet and would like to somehow contribute to improving its situation. Are you one of them?</p>
 
                 <div className="mobile-content">
