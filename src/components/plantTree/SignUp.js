@@ -35,7 +35,7 @@ const SignUp = ({toggle2}) => {
         console.log(count);
 
         try {
-            const user = await fetch('https://api-treeplanting.onrender.com')
+            const user = await fetch('https://api-treeplanting.onrender.com/auth/google')
             console.log(user);
             toggle2()
         } catch (error) {
