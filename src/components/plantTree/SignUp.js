@@ -30,14 +30,14 @@ const SignUp = ({toggle2}) => {
     }
 
     const handleGoogleAuth = async() =>{
-        toggle2()
+        
         count += 1
         console.log(count);
 
         try {
             const user = await fetch('https://api-treeplanting.onrender.com')
-            console.log(user
-                );
+            console.log(user);
+            toggle2()
         } catch (error) {
             console.log(error.message);
         }
